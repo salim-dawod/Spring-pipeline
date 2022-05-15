@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker { image 'maven-dev:0.3' }
+        docker { image 'maven-dev:0.4' }
     }
     stages {
         stage('Build') {
